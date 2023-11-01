@@ -6,6 +6,8 @@ import ScrollToTopButton from "components/misc/ScrollToTopButton.js";
 import HomePage from "./pages/home/index";
 // import AnimationRevealPage from "helpers/AnimationRevealPage"
 // import Hero from "components/hero/FullWidthWithImage"
+import LoginPage from "./pages/auth/Login"
+import SignUpPage from "./pages/auth/Signup"
 
 function App() {
   return (
@@ -21,9 +23,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<SignUpPage />} />
-          <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
+          {/* <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} /> */}
         </Routes>

@@ -591,8 +591,8 @@ const HeroSlider = () => {
                               Up To 50% Off Today Only!
                             </h5>
                             <h1 className="slide-title  animated">
-                              Gold Standard <br />
-                              Pre-Workout
+                            Dependable and <br />
+                            High-Quality Medical Products
                             </h1>
                             <h5 className="color-orange  animated">
                               Starting at &16.99
@@ -629,7 +629,7 @@ const HeroSlider = () => {
               {/* <!-- ltn__slide-item --> */}
               <div
                 className="ltn__slide-item ltn__slide-item-10 section-bg-1 bg-image"
-                data-bs-bg={AdImage2} style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                data-bs-bg={AdImage2}
               >
                 <div className="ltn__slide-item-inner">
                   <div className="container">

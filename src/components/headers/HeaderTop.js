@@ -33,12 +33,12 @@ export default function HeaderOne () {
                   <ul>
                     <li>
                       <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                        <i className="icon-mail"></i> help@erithhealth.com
+                        <i className="icon-mail" style={{color: "#1D187C"}}></i> help@erithhealth.com
                       </a>
                     </li>
                     <li>
                       <a href="locations.html">
-                        <i className="icon-placeholder"></i> No.51 Nii Nortey Palm Crescent Haatso, Accra
+                        <i className="icon-placeholder" style={{color: "#1D187C"}}></i> No.51 Nii Nortey Palm Crescent Haatso, Accra
                       </a>
                     </li>
                   </ul>
@@ -395,7 +395,7 @@ export default function HeaderOne () {
                           </ul>
                         </li>
                         <li className="menu-icon">
-                          <a href="#" style={{color: textColor}}>News</a>
+                          <a href="#" style={{color: textColor}}>Education</a>
                           <ul>
                             <li>
                               <a href="blog.html">News</a>
@@ -418,7 +418,7 @@ export default function HeaderOne () {
                             </li>
                           </ul>
                         </li>
-                        <li className="menu-icon">
+                        {/* <li className="menu-icon">
                           <a href="#">Pages</a>
                           <ul className="mega-menu">
                             <li>
@@ -509,7 +509,7 @@ export default function HeaderOne () {
                               </a>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
                         <li>
                           <a href="contact.html">Contact</a>
                         </li>

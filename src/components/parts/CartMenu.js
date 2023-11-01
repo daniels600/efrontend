@@ -14,7 +14,7 @@ const CartMenu = () => {
         <div className="mini-cart-product-area ltn__scrollbar">
           <div className="mini-cart-item clearfix">
             <div className="mini-cart-img">
-              <a href="#">
+              <a href="#" >
                 <img src="img/product/1.png" alt="Image" />
               </a>
               <span className="mini-cart-item-delete">
